@@ -1,0 +1,27 @@
+{
+  "name": "simplesquare",
+  "main": "main.js",
+  "productName": "SimpleSquare",
+  "description": "A simple game",
+  "author": "Firespindash",
+  "version": "1.2.0",
+  "scripts": {
+    "start": "npm install && electron ./app",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.simplesquare.app",
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Game"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "3.0.9",
+    "electron-builder": "^22.4.1"
+  }
+}
