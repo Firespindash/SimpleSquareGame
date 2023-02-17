@@ -1,0 +1,9 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.simplesquare.app
+linux:
+  target:
+    - AppImage
+  category: Game
+electronVersion: 3.0.9
